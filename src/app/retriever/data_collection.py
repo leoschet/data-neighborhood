@@ -1,4 +1,5 @@
 from enum import Enum
+import numpy as np
 import codecs
 import arff
 import os
@@ -16,10 +17,22 @@ class DataCollection(object):
         self._corpus_dir = corpus_dir
         self.documents = self._get_documents()
 
-    def get_data(self, relation):
+    def get_data_label(self, relation):
         relation_data = self.documents[relation]['data']
-        data = [(data[:(len(data) - 1)], data[(len(data) - 1):][0]) for data in relation_data]
-        return data
+
+        labeled_data = [(data[:(len(data) - 1)], data[(len(data) - 1)]) 
+                        for index, data in enumerate(relation_data)]
+
+        data = [data for data, _ in labeled_data]
+        labels = [label for _, label in labeled_data]
+
+        return np.array(data), np.array(labels)
+
+    def get_features_types(self, relation):
+        relation_attr = self.documents[relation]['attributes']
+        relation_attr = relation_attr[:(len(relation_attr) - 1)]
+        return [EDataType.CATEGORICAL if isinstance(attr_type, list)
+                else EDataType.NUMERICAL for _, attr_type in relation_attr]
 
     def _get_documents(self):
         files_name = os.listdir(self._corpus_dir)
