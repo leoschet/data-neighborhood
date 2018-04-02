@@ -1,0 +1,500 @@
+Partial results using k = 1
+	Partial average precision: 0.9182075740820776
+	Partial standard deviation: 0.0
+	Partial average recall: 0.9132947976878613
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 0.9144611883003991
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 1
+	Partial average precision: 0.9334140911790896
+	Partial standard deviation: 0.015206517097011985
+	Partial average recall: 0.930635838150289
+	Partial recall standard deviation: 0.017341040462427737
+	Partial average F1-Score: 0.9308523369421828
+	Partial F1-Score standard deviation: 0.016391148641783704
+
+Partial results using k = 1
+	Partial average precision: 0.9250460093521197
+	Partial standard deviation: 0.01715250307506771
+	Partial average recall: 0.9219653179190752
+	Partial recall standard deviation: 0.018730464446265475
+	Partial average F1-Score: 0.9211945316705826
+	Partial F1-Score standard deviation: 0.01912222723759789
+
+Partial results using k = 1
+	Partial average precision: 0.9046809004333665
+	Partial standard deviation: 0.03827361042707103
+	Partial average recall: 0.9059667420624948
+	Partial recall standard deviation: 0.032108970897490346
+	Partial average F1-Score: 0.9028436653388523
+	Partial F1-Score standard deviation: 0.03584002743120957
+
+Partial results using k = 1
+	Partial average precision: 0.9066273389966263
+	Partial standard deviation: 0.034453590472122625
+	Partial average recall: 0.9073820893021697
+	Partial recall standard deviation: 0.028858302807201384
+	Partial average F1-Score: 0.9048967154684927
+	Partial F1-Score standard deviation: 0.03231820094552217
+
+Results using k = 1
+	Average precision: 0.9066273389966263
+	Precision standard deviation: 0.034453590472122625
+	Average recall: 0.9073820893021697
+	Recall standard deviation: 0.028858302807201384
+	Average F1-Score: 0.9048967154684927
+	F1-Score standard deviation: 0.03231820094552217
+
+=======================
+
+Partial results using k = 2
+	Partial average precision: 0.886964796329663
+	Partial standard deviation: 0.0
+	Partial average recall: 0.8757225433526011
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 0.8807422842331601
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 2
+	Partial average precision: 0.8783802902982392
+	Partial standard deviation: 0.008584506031423744
+	Partial average recall: 0.8713872832369942
+	Partial recall standard deviation: 0.00433526011560692
+	Partial average F1-Score: 0.8741775659230366
+	Partial F1-Score standard deviation: 0.006564718310123507
+
+Partial results using k = 2
+	Partial average precision: 0.8829648134211654
+	Partial standard deviation: 0.009548029485971925
+	Partial average recall: 0.873795761078998
+	Partial recall standard deviation: 0.00491235020577339
+	Partial average F1-Score: 0.8763976770306727
+	Partial F1-Score standard deviation: 0.006211935097429694
+
+Partial results using k = 2
+	Partial average precision: 0.8825731457747231
+	Partial standard deviation: 0.008296617439327362
+	Partial average recall: 0.8720134874759152
+	Partial recall standard deviation: 0.005256223548980685
+	Partial average F1-Score: 0.875323751056639
+	Partial F1-Score standard deviation: 0.005692192392577952
+
+Partial results using k = 2
+	Partial average precision: 0.8865530945197104
+	Partial standard deviation: 0.010882419620587478
+	Partial average recall: 0.8784803551981234
+	Partial recall standard deviation: 0.013761679452146944
+	Partial average F1-Score: 0.8807871714867505
+	Partial F1-Score standard deviation: 0.012054737432724727
+
+Results using k = 2
+	Average precision: 0.8865530945197104
+	Precision standard deviation: 0.010882419620587478
+	Average recall: 0.8784803551981234
+	Recall standard deviation: 0.013761679452146944
+	Average F1-Score: 0.8807871714867505
+	F1-Score standard deviation: 0.012054737432724727
+
+=======================
+
+Partial results using k = 3
+	Partial average precision: 0.9429824733400785
+	Partial standard deviation: 0.0
+	Partial average recall: 0.9421965317919075
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 0.941561095666707
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 3
+	Partial average precision: 0.9253915146314827
+	Partial standard deviation: 0.017590958708595728
+	Partial average recall: 0.9190751445086706
+	Partial recall standard deviation: 0.023121387283236983
+	Partial average F1-Score: 0.9192889525905126
+	Partial F1-Score standard deviation: 0.022272143076194406
+
+Partial results using k = 3
+	Partial average precision: 0.9171042981294021
+	Partial standard deviation: 0.018537811815216902
+	Partial average recall: 0.9123314065510598
+	Partial recall standard deviation: 0.02115076917158011
+	Partial average F1-Score: 0.9118488934151093
+	Partial F1-Score standard deviation: 0.021009708847847447
+
+Partial results using k = 3
+	Partial average precision: 0.9203196990565572
+	Partial standard deviation: 0.016992770802295495
+	Partial average recall: 0.9168572505654687
+	Partial recall standard deviation: 0.0199240073665009
+	Partial average F1-Score: 0.9159858726559714
+	Partial F1-Score standard deviation: 0.01955504260086033
+
+Partial results using k = 3
+	Partial average precision: 0.9265169189900785
+	Partial standard deviation: 0.019611872609448012
+	Partial average recall: 0.9236307279886068
+	Partial recall standard deviation: 0.02238510310986649
+	Partial average F1-Score: 0.922980167720006
+	Partial F1-Score standard deviation: 0.02239643736553383
+
+Results using k = 3
+	Average precision: 0.9265169189900785
+	Precision standard deviation: 0.019611872609448012
+	Average recall: 0.9236307279886068
+	Recall standard deviation: 0.02238510310986649
+	Average F1-Score: 0.922980167720006
+	F1-Score standard deviation: 0.02239643736553383
+
+=======================
+
+Partial results using k = 4
+	Partial average precision: 0.8780872055575367
+	Partial standard deviation: 0.0
+	Partial average recall: 0.8786127167630058
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 0.875931840325451
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 4
+	Partial average precision: 0.8896269736468213
+	Partial standard deviation: 0.011539768089284586
+	Partial average recall: 0.8901734104046243
+	Partial recall standard deviation: 0.011560693641618491
+	Partial average F1-Score: 0.8882088902065153
+	Partial F1-Score standard deviation: 0.012277049881064206
+
+Partial results using k = 4
+	Partial average precision: 0.898917946294168
+	Partial standard deviation: 0.016168544889294596
+	Partial average recall: 0.8998073217726397
+	Partial recall standard deviation: 0.016574807836305654
+	Partial average F1-Score: 0.898180541457069
+	Partial F1-Score standard deviation: 0.017301781021427785
+
+Partial results using k = 4
+	Partial average precision: 0.9057358114172593
+	Partial standard deviation: 0.018317102319631344
+	Partial average recall: 0.9074641869816537
+	Partial recall standard deviation: 0.01954292571737585
+	Partial average F1-Score: 0.9054793957072529
+	Partial F1-Score standard deviation: 0.01960442654048712
+
+Partial results using k = 4
+	Partial average precision: 0.9073031087223203
+	Partial standard deviation: 0.016680487801023134
+	Partial average recall: 0.9085800452374968
+	Partial recall standard deviation: 0.01762161499591992
+	Partial average F1-Score: 0.906874684797917
+	Partial F1-Score standard deviation: 0.01775539801218744
+
+Results using k = 4
+	Average precision: 0.9073031087223203
+	Precision standard deviation: 0.016680487801023134
+	Average recall: 0.9085800452374968
+	Recall standard deviation: 0.01762161499591992
+	Average F1-Score: 0.906874684797917
+	F1-Score standard deviation: 0.01775539801218744
+
+=======================
+
+Partial results using k = 5
+	Partial average precision: 0.8848865078246159
+	Partial standard deviation: 0.0
+	Partial average recall: 0.8872832369942196
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 0.8830403676679617
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 5
+	Partial average precision: 0.8681138466918183
+	Partial standard deviation: 0.016772661132797462
+	Partial average recall: 0.8713872832369942
+	Partial recall standard deviation: 0.01589595375722541
+	Partial average F1-Score: 0.8677248705551122
+	Partial F1-Score standard deviation: 0.015315497112849463
+
+Partial results using k = 5
+	Partial average precision: 0.8924672070461316
+	Partial standard deviation: 0.03706373468425035
+	Partial average recall: 0.8930635838150289
+	Partial recall standard deviation: 0.033289311258518285
+	Partial average F1-Score: 0.8898694564205964
+	Partial F1-Score standard deviation: 0.03372153121548217
+
+Partial results using k = 5
+	Partial average precision: 0.8977016398172183
+	Partial standard deviation: 0.033353982983497746
+	Partial average recall: 0.8987831951076485
+	Partial recall standard deviation: 0.030484021110507527
+	Partial average F1-Score: 0.89549699196452
+	Partial F1-Score standard deviation: 0.03078739546522122
+
+Partial results using k = 5
+	Partial average precision: 0.8980163957594055
+	Partial standard deviation: 0.029839350359941383
+	Partial average recall: 0.8993164111585825
+	Partial recall standard deviation: 0.02728658483358791
+	Partial average F1-Score: 0.8963002951397542
+	Partial F1-Score standard deviation: 0.027583911245341992
+
+Results using k = 5
+	Average precision: 0.8980163957594055
+	Precision standard deviation: 0.029839350359941383
+	Average recall: 0.8993164111585825
+	Recall standard deviation: 0.02728658483358791
+	Average F1-Score: 0.8963002951397542
+	F1-Score standard deviation: 0.027583911245341992
+
+=======================
+
+Partial results using k = 7
+	Partial average precision: 0.9703084100235381
+	Partial standard deviation: 0.0
+	Partial average recall: 0.9682080924855492
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 0.9687400472188216
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 7
+	Partial average precision: 0.9488524868868132
+	Partial standard deviation: 0.02145592313672484
+	Partial average recall: 0.9479768786127167
+	Partial recall standard deviation: 0.020231213872832388
+	Partial average F1-Score: 0.9478807553786774
+	Partial F1-Score standard deviation: 0.02085929184014418
+
+Partial results using k = 7
+	Partial average precision: 0.9231555514179989
+	Partial standard deviation: 0.04034314576326662
+	Partial average recall: 0.920038535645472
+	Partial recall standard deviation: 0.04282487624449495
+	Partial average F1-Score: 0.9203602166721826
+	Partial F1-Score standard deviation: 0.04248333169734024
+
+Partial results using k = 7
+	Partial average precision: 0.9135644082532983
+	Partial standard deviation: 0.038686523999636936
+	Partial average recall: 0.9124926698500461
+	Partial recall standard deviation: 0.03932299315699366
+	Partial average F1-Score: 0.9115044140869284
+	Partial F1-Score standard deviation: 0.03986101883252185
+
+Partial results using k = 7
+	Partial average precision: 0.8986147704122643
+	Partial standard deviation: 0.0457305630585486
+	Partial average recall: 0.899849208343805
+	Partial recall standard deviation: 0.04331820296479504
+	Partial average F1-Score: 0.8972745324523508
+	Partial F1-Score standard deviation: 0.04561884241439804
+
+Results using k = 7
+	Average precision: 0.8986147704122643
+	Precision standard deviation: 0.0457305630585486
+	Average recall: 0.899849208343805
+	Recall standard deviation: 0.04331820296479504
+	Average F1-Score: 0.8972745324523508
+	F1-Score standard deviation: 0.04561884241439804
+
+=======================
+
+Partial results using k = 9
+	Partial average precision: 0.9471480421679895
+	Partial standard deviation: 0.0
+	Partial average recall: 0.9421965317919075
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 0.9433670465044774
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 9
+	Partial average precision: 0.926290784089775
+	Partial standard deviation: 0.02085725807821448
+	Partial average recall: 0.9277456647398844
+	Partial recall standard deviation: 0.014450867052023142
+	Partial average F1-Score: 0.9255580446845637
+	Partial F1-Score standard deviation: 0.017809001819913794
+
+Partial results using k = 9
+	Partial average precision: 0.9160780102054357
+	Partial standard deviation: 0.022329762885428404
+	Partial average recall: 0.9190751445086706
+	Partial recall standard deviation: 0.017016880281941916
+	Partial average F1-Score: 0.91523428781644
+	Partial F1-Score standard deviation: 0.02060583110736838
+
+Partial results using k = 9
+	Partial average precision: 0.9255855347793358
+	Partial standard deviation: 0.0253996614831683
+	Partial average recall: 0.9277121554829522
+	Partial recall standard deviation: 0.0209993937199873
+	Partial average F1-Score: 0.9248272123640433
+	Partial F1-Score standard deviation: 0.024382838449349367
+
+Partial results using k = 9
+	Partial average precision: 0.8958290499514291
+	Partial standard deviation: 0.06370170955336615
+	Partial average recall: 0.9021697243863617
+	Partial recall standard deviation: 0.054428326950053424
+	Partial average F1-Score: 0.8974366874661521
+	Partial F1-Score standard deviation: 0.05896254459744435
+
+Results using k = 9
+	Average precision: 0.8958290499514291
+	Precision standard deviation: 0.06370170955336615
+	Average recall: 0.9021697243863617
+	Recall standard deviation: 0.054428326950053424
+	Average F1-Score: 0.8974366874661521
+	F1-Score standard deviation: 0.05896254459744435
+
+=======================
+
+Partial results using k = 11
+	Partial average precision: 0.8085200401280276
+	Partial standard deviation: 0.0
+	Partial average recall: 0.8208092485549133
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 0.813658197056652
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 11
+	Partial average precision: 0.8595622816308848
+	Partial standard deviation: 0.05104224150285719
+	Partial average recall: 0.8569364161849711
+	Partial recall standard deviation: 0.0361271676300578
+	Partial average F1-Score: 0.8516516907209574
+	Partial F1-Score standard deviation: 0.03799349366430538
+
+Partial results using k = 11
+	Partial average precision: 0.8764707489108455
+	Partial standard deviation: 0.048048581074495146
+	Partial average recall: 0.871868978805395
+	Partial recall standard deviation: 0.03627778493981257
+	Partial average F1-Score: 0.8660526364008883
+	Partial F1-Score standard deviation: 0.037109453155483835
+
+Partial results using k = 11
+	Partial average precision: 0.8898696374033712
+	Partial standard deviation: 0.047645464064899834
+	Partial average recall: 0.8857857920750608
+	Partial recall standard deviation: 0.039599133006326066
+	Partial average F1-Score: 0.8813665854268199
+	Partial F1-Score standard deviation: 0.041669950077133304
+
+Partial results using k = 11
+	Partial average precision: 0.8862408003343922
+	Partial standard deviation: 0.04322899525388612
+	Partial average recall: 0.8848605177180197
+	Partial recall standard deviation: 0.035466852107642055
+	Partial average F1-Score: 0.8800110181932871
+	Partial F1-Score standard deviation: 0.03736921248358247
+
+Results using k = 11
+	Average precision: 0.8862408003343922
+	Precision standard deviation: 0.04322899525388612
+	Average recall: 0.8848605177180197
+	Recall standard deviation: 0.035466852107642055
+	Average F1-Score: 0.8800110181932871
+	F1-Score standard deviation: 0.03736921248358247
+
+=======================
+
+Partial results using k = 13
+	Partial average precision: 0.9072257804856045
+	Partial standard deviation: 0.0
+	Partial average recall: 0.9075144508670521
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 0.9052465937656023
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 13
+	Partial average precision: 0.9157928672100026
+	Partial standard deviation: 0.008567086724398154
+	Partial average recall: 0.9161849710982659
+	Partial recall standard deviation: 0.00867052023121384
+	Partial average F1-Score: 0.9145803827290047
+	Partial F1-Score standard deviation: 0.009333788963402312
+
+Partial results using k = 13
+	Partial average precision: 0.9204134143846123
+	Partial standard deviation: 0.009572298348942132
+	Partial average recall: 0.9210019267822736
+	Partial recall standard deviation: 0.00982470041154678
+	Partial average F1-Score: 0.9197543729026479
+	Partial F1-Score standard deviation: 0.010565041074670123
+
+Partial results using k = 13
+	Partial average precision: 0.9094673766043901
+	Partial standard deviation: 0.02069224253238454
+	Partial average recall: 0.9088673871156907
+	Partial recall standard deviation: 0.02267453885731982
+	Partial average F1-Score: 0.9063493630981989
+	Partial F1-Score standard deviation: 0.024955919803810574
+
+Partial results using k = 13
+	Partial average precision: 0.896560768593179
+	Partial standard deviation: 0.03176251315994152
+	Partial average recall: 0.8981084024461758
+	Partial recall standard deviation: 0.02956908477428945
+	Partial average F1-Score: 0.8942516225371724
+	Partial F1-Score standard deviation: 0.03291898621359709
+
+Results using k = 13
+	Average precision: 0.896560768593179
+	Precision standard deviation: 0.03176251315994152
+	Average recall: 0.8981084024461758
+	Recall standard deviation: 0.02956908477428945
+	Average F1-Score: 0.8942516225371724
+	F1-Score standard deviation: 0.03291898621359709
+
+=======================
+
+Partial results using k = 15
+	Partial average precision: 0.9242967634738247
+	Partial standard deviation: 0.0
+	Partial average recall: 0.9161849710982659
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 0.9132107162053537
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 15
+	Partial average precision: 0.8940715574526507
+	Partial standard deviation: 0.030225206021174067
+	Partial average recall: 0.8945086705202312
+	Partial recall standard deviation: 0.021676300578034713
+	Partial average F1-Score: 0.8900709300542002
+	Partial F1-Score standard deviation: 0.023139786151153363
+
+Partial results using k = 15
+	Partial average precision: 0.8902076650346696
+	Partial standard deviation: 0.025276498608728895
+	Partial average recall: 0.8901734104046243
+	Partial recall standard deviation: 0.018730464446265506
+	Partial average F1-Score: 0.8855485884564159
+	Partial F1-Score standard deviation: 0.019946669290924444
+
+Partial results using k = 15
+	Partial average precision: 0.8871253889559123
+	Partial standard deviation: 0.022531695762078027
+	Partial average recall: 0.8886445505570914
+	Partial recall standard deviation: 0.01643578294696687
+	Partial average F1-Score: 0.8842190629233236
+	Partial F1-Score standard deviation: 0.017427137638767985
+
+Partial results using k = 15
+	Partial average precision: 0.8919755974061235
+	Partial standard deviation: 0.022366044334523688
+	Partial average recall: 0.8929446259529195
+	Partial recall standard deviation: 0.01703145802634261
+	Partial average F1-Score: 0.888932288972368
+	Partial F1-Score standard deviation: 0.018215984743680788
+
+Results using k = 15
+	Average precision: 0.8919755974061235
+	Precision standard deviation: 0.022366044334523688
+	Average recall: 0.8929446259529195
+	Recall standard deviation: 0.01703145802634261
+	Average F1-Score: 0.888932288972368
+	F1-Score standard deviation: 0.018215984743680788
+
+=======================
+

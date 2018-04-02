@@ -1,0 +1,500 @@
+Partial results using k = 1
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 1
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 1
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 1
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 1
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Results using k = 1
+	Average precision: 1.0
+	Precision standard deviation: 0.0
+	Average recall: 1.0
+	Recall standard deviation: 0.0
+	Average F1-Score: 1.0
+	F1-Score standard deviation: 0.0
+
+=======================
+
+Partial results using k = 2
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 2
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 2
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 2
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 2
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Results using k = 2
+	Average precision: 1.0
+	Precision standard deviation: 0.0
+	Average recall: 1.0
+	Recall standard deviation: 0.0
+	Average F1-Score: 1.0
+	F1-Score standard deviation: 0.0
+
+=======================
+
+Partial results using k = 3
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 3
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 3
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 3
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 3
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Results using k = 3
+	Average precision: 1.0
+	Precision standard deviation: 0.0
+	Average recall: 1.0
+	Recall standard deviation: 0.0
+	Average F1-Score: 1.0
+	F1-Score standard deviation: 0.0
+
+=======================
+
+Partial results using k = 4
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 4
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 4
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 4
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 4
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Results using k = 4
+	Average precision: 1.0
+	Precision standard deviation: 0.0
+	Average recall: 1.0
+	Recall standard deviation: 0.0
+	Average F1-Score: 1.0
+	F1-Score standard deviation: 0.0
+
+=======================
+
+Partial results using k = 5
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 5
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 5
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 5
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 5
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Results using k = 5
+	Average precision: 1.0
+	Precision standard deviation: 0.0
+	Average recall: 1.0
+	Recall standard deviation: 0.0
+	Average F1-Score: 1.0
+	F1-Score standard deviation: 0.0
+
+=======================
+
+Partial results using k = 7
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 7
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 7
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 7
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 7
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Results using k = 7
+	Average precision: 1.0
+	Precision standard deviation: 0.0
+	Average recall: 1.0
+	Recall standard deviation: 0.0
+	Average F1-Score: 1.0
+	F1-Score standard deviation: 0.0
+
+=======================
+
+Partial results using k = 9
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 9
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 9
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 9
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 9
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Results using k = 9
+	Average precision: 1.0
+	Precision standard deviation: 0.0
+	Average recall: 1.0
+	Recall standard deviation: 0.0
+	Average F1-Score: 1.0
+	F1-Score standard deviation: 0.0
+
+=======================
+
+Partial results using k = 11
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 11
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 11
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 11
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 11
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Results using k = 11
+	Average precision: 1.0
+	Precision standard deviation: 0.0
+	Average recall: 1.0
+	Recall standard deviation: 0.0
+	Average F1-Score: 1.0
+	F1-Score standard deviation: 0.0
+
+=======================
+
+Partial results using k = 13
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 13
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 13
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 13
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 13
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Results using k = 13
+	Average precision: 1.0
+	Precision standard deviation: 0.0
+	Average recall: 1.0
+	Recall standard deviation: 0.0
+	Average F1-Score: 1.0
+	F1-Score standard deviation: 0.0
+
+=======================
+
+Partial results using k = 15
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 15
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 15
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 15
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Partial results using k = 15
+	Partial average precision: 1.0
+	Partial standard deviation: 0.0
+	Partial average recall: 1.0
+	Partial recall standard deviation: 0.0
+	Partial average F1-Score: 1.0
+	Partial F1-Score standard deviation: 0.0
+
+Results using k = 15
+	Average precision: 1.0
+	Precision standard deviation: 0.0
+	Average recall: 1.0
+	Recall standard deviation: 0.0
+	Average F1-Score: 1.0
+	F1-Score standard deviation: 0.0
+
+=======================
+
