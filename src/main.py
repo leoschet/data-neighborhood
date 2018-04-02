@@ -1,56 +1,94 @@
 from app.retriever.data_collection import DataCollection, EDataType
 from app.classifier.knn import KNeighborsClassifier
 
+from sklearn.model_selection import KFold
+from sklearn.metrics import classification_report
+from sklearn.metrics import precision_recall_fscore_support
+from sklearn.exceptions import UndefinedMetricWarning
+import warnings
+
+import numpy as np
+
+import codecs
+
+warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
+
 print('Collecting data...')
-data_collection = DataCollection('../res/promise/')
+data_collection = DataCollection('../res/mixed/')
+
+kf = KFold(n_splits=5, shuffle=True) # 80% for training, 20% for testing
+ks = [1, 2, 3, 4, 5, 7, 9, 11, 13, 15]
+# ks = [5]
+
+verbose = 3 # Can be 0, 1, 2 or 3
 
 for relation in data_collection.documents:
-    print('\nTesting for', relation, 'data set')
-    relation_data = data_collection.get_data(relation)
+    file_ = codecs.open('../res/results/' + relation + '.txt', 'w+', 'utf-8')
+
+    print('\nTesting for ' + relation + ' data set')
+    relation_data, relation_labels = data_collection.get_data_label(relation)
     data_len = len(relation_data)
-    print('\tTotal data collected:', data_len)
+    print('\tTotal data collected: ' + str(data_len))
 
-    # data_split_index = int(data_len/2)
-    data_split_index = 15000
-    # print('\tData split index:', data_split_index)
+    features_types = data_collection.get_features_types(relation)
 
-    train_data = relation_data[:data_split_index]
-    print('\tTotal train_data:', len(train_data))
+    for k in ks:
+        knn = KNeighborsClassifier(k, weighted_distance=True)
+        
+        metrics = []
+        for train_indexes, test_indexes in kf.split(relation_data):
+            train_data, test_data = relation_data[train_indexes], relation_data[test_indexes]
+            train_labels, test_labels = relation_labels[train_indexes], relation_labels[test_indexes]
+            
+            if verbose > 0:
+                print('\n\tTraining K-NN for new kfold configuration...')
 
-    test_data = relation_data[data_split_index:]
-    print('\tTotal test_data:', len(test_data))
+            knn.fit(train_data, train_labels, features_types)
 
-    k = 5
-    print('\n\tTraining K-NN where K =', k)
-    knn = KNeighborsClassifier(k, train_data, EDataType.NUMERICAL, weighted_distance=True)
+            if verbose > 0:
+                print('\tClassifying data_test...')
+ 
+            test_data_len = len(test_data)
+            pred_labels = []
+            for index, features in enumerate(test_data):
+                if verbose > 1:
+                    if index != 0 and index % int(test_data_len/10) == 0:
+                        percentage = (index/len(test_data))*100
+                        print('\t\tClassified ' 
+                                    + '{:5.2f}'.format(percentage) + '% of ' 
+                                    + relation + ' database')
+                        if verbose > 2:
+                            print('\t\t\t', classification_report(test_labels[:index-1], pred_labels[:index-1]).replace('\n', '\n\t\t\t'))
 
-    print('\n\tClassifying data_test')
-    # test_data = [data for data in test_data if data[1] == '1']
-    correct_answers = 0
-    incorrect_answers = 0
-    for index, data in enumerate(test_data):
-        if index != 0 and index % 100 == 0:
-            print('\t\tGot into', index, 'from', len(test_data))
-            print('\t\t\tPartial correct answers:', correct_answers)
-            print('\t\t\tPartial incorrect answers:', incorrect_answers)
-            if incorrect_answers == 0:
-                incorrect_answers = 1
-            print('\t\t\tPartial precision (correct/total):',
-                  correct_answers/(correct_answers + incorrect_answers))
+                ordered_pred_labels = knn.predict(features)
+                pred_label, distances = ordered_pred_labels[0]
+                pred_labels.append(pred_label)
 
-        possible_labels, best_match = knn.classify(data[0])
-        # print('\n\t\tData:', data[0])
-        # print('\t\tTrue label:', data[1])
-        # print('\t\tK-NN best label result:', best_match)
-        # print('\t\tK-NN all possible label:', possible_labels)
+            metrics.append(precision_recall_fscore_support(test_labels, pred_labels, average='weighted'))
 
-        if best_match == data[1]:
-            correct_answers += 1
-        else:
-            incorrect_answers += 1
+            if verbose > 0:
+                precisions = [precision for precision, _, _, _ in metrics]
+                recalls = [recall for _, recall, _, _ in metrics]
+                f1s = [f1 for _, _, f1, _ in metrics]
+                file_.write('Partial results using k = ' + str(knn.k))
+                file_.write('\n\tPartial average precision: ' + str(np.mean(precisions)))
+                file_.write('\n\tPartial standard deviation: ' + str(np.std(precisions)))
+                file_.write('\n\tPartial average recall: ' + str(np.mean(recalls)))
+                file_.write('\n\tPartial recall standard deviation: ' + str(np.std(recalls)))
+                file_.write('\n\tPartial average F1-Score: ' + str(np.mean(f1s)))
+                file_.write('\n\tPartial F1-Score standard deviation: ' + str(np.std(f1s)) + '\n\n')
 
-    print('\n\tCorrect answers:', correct_answers)
-    print('\tIncorrect answers:', incorrect_answers)
-    if incorrect_answers == 0:
-        incorrect_answers = 1
-    print('\tPrecision (correct/total):', correct_answers/(correct_answers + incorrect_answers))    
+                if verbose > 1:
+                    print('\t\t', classification_report(test_labels, pred_labels).replace('\n', '\n\t\t'))
+
+        precisions = [precision for precision, _, _, _ in metrics]
+        recalls = [recall for _, recall, _, _ in metrics]
+        f1s = [f1 for _, _, f1, _ in metrics]
+        file_.write('Results using k = ' + str(knn.k))
+        file_.write('\n\tAverage precision: ' + str(np.mean(precisions)))
+        file_.write('\n\tPrecision standard deviation: ' + str(np.std(precisions)))
+        file_.write('\n\tAverage recall: ' + str(np.mean(recalls)))
+        file_.write('\n\tRecall standard deviation: ' + str(np.std(recalls)))
+        file_.write('\n\tAverage F1-Score: ' + str(np.mean(f1s)))
+        file_.write('\n\tF1-Score standard deviation: ' + str(np.std(f1s)))
+        file_.write('\n\n=======================\n\n')
